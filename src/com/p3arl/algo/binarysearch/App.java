@@ -4,7 +4,7 @@ public class App {
     public static void main(String[] args) {
         int[] a = {1,2,3,4,7,12,18};
         //System.out.println(binarySearch(a, 20));
-        System.out.println(recursiveBinarySearch(a, 0, 6, 4));
+        System.out.println(recursiveBinarySearch(a, 0, 6, 99));
     }
 
     public static int binarySearch(int[] a, int x) {
@@ -22,6 +22,7 @@ public class App {
     }
 
     public static int recursiveBinarySearch(int[] a, int p, int r, int x) {
+        System.out.println("[ " + p + "..." + r + " ]");
         if(p > r) {
             return -1;
         }
