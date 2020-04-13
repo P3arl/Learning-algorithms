@@ -19,4 +19,8 @@ public class App {
         }
         return -1;
     }
+
+    public static int recursiveBinarySearch(int[] a, int x) {
+        
+    }
 }
